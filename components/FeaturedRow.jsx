@@ -9,7 +9,7 @@ const FeaturedRow = () => {
     <View className="px-4 mt-5">
       <View className="flex flex-row items-center justify-between">
       <Text className="text-lg font-bold">Offers near you!</Text>
-      <ArrowLongRightIcon color={"#00cc88"} size={20} />
+      <ArrowLongRightIcon color={"#00ccbb"} size={20} />
       </View>
       <Text className="text-sm text-gray-500 ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
@@ -28,8 +28,8 @@ const FeaturedRow = () => {
                 />
                 <Text className="text-lg font-semibold p-2">Nando's</Text>
                 <View className="px-2 flex flex-row items-center gap-1">
-                  <StarIcon color={"#00cc88"} size={20} opacity={0.3} />
-                  <Text className="text-[#00cc88] text-sm">4.8</Text>
+                  <StarIcon color={"#00ccbb"} size={20} opacity={0.3} />
+                  <Text className="text-[#00ccbb] text-sm">4.8</Text>
                   <Text className="text-sm">Offers</Text>
                 </View>
                 <View className="p-2 flex flex-row items-center gap-1">

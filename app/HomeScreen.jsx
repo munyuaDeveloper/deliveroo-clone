@@ -32,7 +32,7 @@ const HomeScreen = () => {
     <SafeAreaView>
       <View
         style={{
-          marginTop: Platform.OS === "android" ? 50 : 0,
+          marginTop: Platform.OS === "android" ? 30 : 0,
         }}
         className="flex flex-row px-4 justify-between items-center gap-3"
       >
@@ -46,24 +46,24 @@ const HomeScreen = () => {
           <Text className="text-sm text-gray-500">John Doe</Text>
           <View className="flex flex-row items-center gap-1">
             <Text className="text-lg font-semibold">Current Location</Text>
-            <ChevronDownIcon color={"#00cc88"} size={12} />
+            <ChevronDownIcon color={"#00ccbb"} size={12} />
           </View>
         </View>
         <View>
-          <UserIcon color={"#00cc88"} />
+          <UserIcon color={"#00ccbb"} />
         </View>
       </View>
 
       <View className="flex flex-row justify-between items-center px-4 mt-4 pb-3 gap-2">
         <View className="flex flex-row flex-1 justify-between items-center bg-gray-200 p-2 rounded-lg">
-          <MagnifyingGlassIcon color={"#00cc88"} />
+          <MagnifyingGlassIcon color={"#00ccbb"} />
           <TextInput
             className="flex-1 ml-2 text-gray-500"
             placeholder="Search for your favorite restaurants"
             keyboardType="default"
           />
         </View>
-        <AdjustmentsVerticalIcon color={"#00cc88"} size={27} />
+        <AdjustmentsVerticalIcon color={"#00ccbb"} size={27} />
       </View>
 
       <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>

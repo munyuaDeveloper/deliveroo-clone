@@ -24,9 +24,6 @@ import { StatusBar } from "expo-status-bar";
 
 const RestaurantScreen = () => {
   const navigation = useNavigation();
-  const {
-    params: { id },
-  } = useRoute();
 
   const safeAreaInsets = useSafeAreaInsets();
 
@@ -47,15 +44,15 @@ const RestaurantScreen = () => {
             className="absolute left-4 bg-white p-2 rounded-full"
             style={{ top: Platform.OS === 'ios' ? safeAreaInsets.top : safeAreaInsets.top + 20}}
           >
-            <ArrowLongLeftIcon color={"#00cc88"} size={20} />
+            <ArrowLongLeftIcon color={"#00ccbb"} size={20} />
           </TouchableOpacity>
         </View>
         <View className="px-4 pt-4 bg-white">
           <Text className="text-xl font-bold">Nando's</Text>
           <View className="flex flex-row items-center gap-1 mt-2">
             <View className="flex flex-row items-center gap-1">
-              <StarIcon color={"#00cc88"} size={16} opacity={0.3} />
-              <Text className="text-[#00cc88] text-sm">4.8</Text>
+              <StarIcon color={"#00ccbb"} size={16} opacity={0.3} />
+              <Text className="text-[#00ccbb] text-sm">4.8</Text>
               <Text className="text-sm">Offers</Text>
             </View>
             <View className="flex flex-row items-center gap-1">
@@ -70,11 +67,11 @@ const RestaurantScreen = () => {
             dicta saepe labore veritatis totam animi mollitia.{" "}
           </Text>
           <View className="flex flex-row justify-between items-center mt-4 border-t border-gray-200 py-3 gap-4">
-            <QuestionMarkCircleIcon color={"#00cc88"} size={20} />
+            <QuestionMarkCircleIcon color={"#00ccbb"} size={20} />
             <Text className="text-sm font-semibold text-gray-600 flex-1">
               Have a food allergy?
             </Text>
-            <ChevronRightIcon color={"#00cc88"} size={20} />
+            <ChevronRightIcon color={"#00ccbb"} size={20} />
           </View>
         </View>
 
@@ -105,11 +102,11 @@ const RestaurantScreen = () => {
                   <Text>$20.50</Text>
                   <View className="flex flex-row items-center gap-3 mt-4">
                     <TouchableOpacity>
-                      <MinusCircleIcon color={"#00cc88"} size={30} />
+                      <MinusCircleIcon color={"#00ccbb"} size={30} />
                     </TouchableOpacity>
                     <Text>3</Text>
                     <TouchableOpacity>
-                      <PlusCircleIcon color={"#00cc88"} size={30} />
+                      <PlusCircleIcon color={"#00ccbb"} size={30} />
                     </TouchableOpacity>
                   </View>
                 </View>
